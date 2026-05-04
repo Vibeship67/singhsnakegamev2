@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     libglib2.0-0 \
     x11vnc \
     websockify \
+    novnc \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
